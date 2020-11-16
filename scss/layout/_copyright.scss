@@ -1,0 +1,22 @@
+.copyright_section {
+    background-color: #ececec;
+    .inner_copyright {
+        background-color: #111c20;
+        overflow: hidden;
+        .inner_copyright_child {
+            width: 930px;
+            margin: 0 auto;
+            padding: 20px 0;
+            overflow: hidden;
+            p {
+                color: #a1a4a4;
+            }
+            .copyright_left {
+                float: left;
+            }
+            .copyright_right {
+                float: right;
+            }
+        }
+    }
+}
