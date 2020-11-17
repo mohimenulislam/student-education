@@ -2,11 +2,9 @@
     background-color: #ececec;
     overflow: hidden;
     .inner_footer {
-        background-color: #203138;
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
+        background-color: #ffffff;
         overflow: hidden;
-        padding-bottom: 50px;
+        
         .border_bottom {
             border-bottom: 1px solid #48585e;
             h3 {
@@ -51,4 +49,10 @@
             }
         }
     }
+}
+.inner_footer_background {
+    background-color: #203138;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 50px;
 }
