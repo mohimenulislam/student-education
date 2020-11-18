@@ -24,10 +24,6 @@ a {
   display: table;
 }
 
-.main_header_area {
-  position: relative;
-}
-
 .main_header_area .header_top {
   background-color: #19292e;
 }
@@ -89,6 +85,8 @@ a {
 .main_header_area .header_bottom {
   background-color: #2d3f45;
   height: 380px;
+  position: absolute;
+  width: 100%;
 }
 
 .main_header_area .header_bottom .innner_header_bottom {
@@ -127,12 +125,11 @@ a {
 
 .main_body {
   background-color: #ececec;
+  margin-top: 150px;
 }
 
 .main_body .inner_body {
   background-color: #ffffff;
-  position: relative;
-  top: -150px;
   padding-bottom: 25px;
 }
 

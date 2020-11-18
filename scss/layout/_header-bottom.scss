@@ -2,6 +2,8 @@
     .header_bottom {
         background-color: $header_bottom_color;
         height: 380px;
+        position: absolute;
+        width: 100%;
         .innner_header_bottom {
             overflow: hidden;
            .header_bottom_left {
